@@ -1,0 +1,11 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/Hanli/.emacs.d/init.el" . 688)
+ ("/Users/Hanli/.emacs.d/recentf" . 639)
+ ("/Users/Hanli/.emacs.d/"
+  (dired-filename . "/Users/Hanli/.emacs.d/.places"))
+ ("/Users/Hanli/.emacs.d/customize/enhancement.el" . 5435)
+ ("/Users/Hanli/.emacs.d/customize/smex.el" . 53)
+ ("/Users/Hanli/.emacs.d/customize/ace.el" . 43)
+ ("/Users/Hanli/.emacs.d/el-get/.loaddefs.el" . 21907)
+ ("/Users/Hanli/.emacs" . 403)
+ ("/Users/Hanli/.emacs.d/customize/theme.el" . 696))
