@@ -21,9 +21,14 @@
 (add-to-list 'load-path "~/.emacs.d/el-get/expand-region")
 ;(load "customize/cedet.el")
 (load "er.el")
+(require 'expand-region)
+(global-set-key (kbd "C-,") 'er/expand-region)
+
 ;(load "customize/ack.el")
 (load "ace.el")
-										;(load-library "ido.el")
+(require 'ace-jump-mode)
+(global-set-key (kbd "C-;") 'ace-jump-word-mode)
+(global-set-key (kbd "C-:") 'ace-jump-line-mode)										;(load-library "ido.el")
 ;(require 'ido)
 ;(ido-mode t)
 ;(load "smex.el")
@@ -32,3 +37,11 @@
 (add-to-list 'load-path "~/.emacs.d/slime/")
 (require 'slime-autoloads)
 (slime-setup '(slime-scratch slime-editing-commands))
+
+;(require 'lsp) add
+(require 'package)
+(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+                         ("melpa" . "https://melpa.org/packages/")))
+(add-to-list 'package-archives
+          '("popkit" . "http://elpa.popkit.org/packages/"))
+(package-initialize)
