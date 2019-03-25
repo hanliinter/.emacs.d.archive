@@ -45,3 +45,13 @@
 (add-to-list 'package-archives
           '("popkit" . "http://elpa.popkit.org/packages/"))
 (package-initialize)
+(require 'use-package)
+(use-package lsp-mode
+  :commands lsp
+  :hook ((c-mode c++-mode objc-mode) . lsp)
+  :config
+			 (require 'lsp-clients)
+			 (when (equal system-type 'darwin)
+			   (setq lsp-clients-clangd-executable "/usr/local/opt/llvm/bin/clangd"))
+;			 (lsp-clients-register-clangd))
+)
