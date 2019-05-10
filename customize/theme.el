@@ -1,6 +1,6 @@
 
 ;; font
-(set-frame-font "Monaco-14") ;; for Mac
+(set-frame-font "Sarasa Mono SC") ;; for Windows
 
 ;; toolbar
 ;(tool-bar-mode nil)
