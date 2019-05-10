@@ -1,0 +1,31 @@
+;;(add-to-list 'load-path "~/.emacs.d/")
+;;
+(load "customize/common.el")
+(load "customize/enhancement.el")
+(load "customize/theme.el")
+(load "customize/magit.el")
+(load "customize/diff.el")
+(load "customize/smart-tab.el")
+(load "customize/mc.el")
+
+;;(require 'xcscope)
+
+
+
+(require 'yasnippet)
+(yas-global-mode 1)
+(yas/load-directory "~/.emacs.d/yasnippet/snippets")
+
+;;do not set Tab to yasnippet because use ac-complete,so the yasnippet is used indirectly
+
+
+(load "customize/cedet.el")
+(load "customize/er.el")
+(load "customize/ack.el")
+(load "customize/ace.el")
+(load "customize/ido.el")
+
+;;(setq inferior-lisp-program "/usr/local/bin/sbcl") ;
+;;(add-to-list 'load-path "~/.emacs.d/slime/")
+;;(require 'slime-autoloads)
+;;(slime-setup '(slime-scratch slime-editing-commands))

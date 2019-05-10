@@ -1,0 +1,14 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/Hanli/.emacs.d/recentf" . 739)
+ ("/Users/Hanli/.emacs.d/init.el" . 1382)
+ ("/Users/Hanli/.emacs" . 403)
+ ("/Users/Hanli/.emacs.d/"
+  (dired-filename . "/Users/Hanli/.emacs.d/init.el"))
+ ("/Users/Hanli/.emacs.d/customize/ace.el" . 528)
+ ("/Users/Hanli/Works/src/github.com/hanliinter/hello/" . 201)
+ ("/Users/Hanli/.zshrc" . 2668)
+ ("/Users/Hanli/Works/src/github.com/hanliinter/hello/hello.go" . 78)
+ ("/Users/Hanli/.emacs.d/customize/enhancement.el" . 5435)
+ ("/Users/Hanli/.emacs.d/customize/smex.el" . 53)
+ ("/Users/Hanli/.emacs.d/el-get/.loaddefs.el" . 21907)
+ ("/Users/Hanli/.emacs.d/customize/theme.el" . 696))

@@ -63,7 +63,11 @@
 	((:url . "http://elpa.gnu.org/packages/ampc.html")
 	 (:keywords "ampc" "mpc" "mpd"))])
  (arbitools .
+<<<<<<< HEAD
 	    [(0 975)
+=======
+	    [(0 97)
+>>>>>>> origin/master
 	     ((cl-lib
 	       (0 5)))
 	     "Package for chess tournaments administration" single
@@ -131,7 +135,11 @@
 	 ((:keywords "brief" "emulations" "crisp")
 	  (:url . "http://elpa.gnu.org/packages/brief.html"))])
  (buffer-expose .
+<<<<<<< HEAD
 		[(0 4 3)
+=======
+		[(0 4)
+>>>>>>> origin/master
 		 ((emacs
 		   (25))
 		  (cl-lib
@@ -207,7 +215,11 @@
 		      ((:url . "https://github.com/cpitclaudel/compact-docstrings")
 		       (:keywords "convenience" "faces" "lisp" "maint" "c"))])
  (company .
+<<<<<<< HEAD
 	  [(0 9 10)
+=======
+	  [(0 9 9)
+>>>>>>> origin/master
 	   ((emacs
 	     (24 3)))
 	   "Modular text completion framework" tar
@@ -223,11 +235,19 @@
 		((:url . "http://elpa.gnu.org/packages/company-ebdb.html")
 		 (:keywords))])
  (company-math .
+<<<<<<< HEAD
 	       [(1 3)
 		((company
 		  (0 8 0))
 		 (math-symbol-lists
 		  (1 2)))
+=======
+	       [(1 1)
+		((company
+		  (0 8 0))
+		 (math-symbol-lists
+		  (1 0)))
+>>>>>>> origin/master
 		"Completion backends for unicode math symbols and latex tags" tar
 		((:keywords "unicode" "symbols" "completion")
 		 (:url . "https://github.com/vspinu/company-math"))])
@@ -282,10 +302,15 @@
 		((:url . "http://elpa.gnu.org/packages/dbus-codegen.html")
 		 (:keywords "comm" "dbus" "convenience"))])
  (debbugs .
+<<<<<<< HEAD
 	  [(0 18)
 	   ((emacs
 	     (25 1))
 	    (soap-client
+=======
+	  [(0 16)
+	   ((soap-client
+>>>>>>> origin/master
 	     (3 1 5))
 	    (cl-lib
 	     (0 5)))
@@ -339,7 +364,11 @@
 		  ((:url . "https://github.com/clemera/dired-git-info")
 		   (:keywords "dired" "files"))])
  (disk-usage .
+<<<<<<< HEAD
 	     [(1 3 3)
+=======
+	     [(1 3 0)
+>>>>>>> origin/master
 	      ((emacs
 		(26 1)))
 	      "Sort and browse disk usage listings" single
@@ -376,7 +405,11 @@
 	     ((:keywords "killing" "convenience")
 	      (:url . "https://github.com/leoliu/easy-kill"))])
  (ebdb .
+<<<<<<< HEAD
        [(0 6 7)
+=======
+       [(0 6 6)
+>>>>>>> origin/master
 	((emacs
 	  (25 1))
 	 (cl-lib
@@ -409,6 +442,7 @@
 	     nil "Emacs Does Interactive Prolog" single
 	     ((:url . "http://elpa.gnu.org/packages/ediprolog.html")
 	      (:keywords "languages" "processes"))])
+<<<<<<< HEAD
  (eev .
       [(20190410)
        ((emacs
@@ -416,6 +450,8 @@
        "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)" tar
        ((:keywords "lisp" "e-scripts")
 	(:url . "http://angg.twu.net/#eev"))])
+=======
+>>>>>>> origin/master
  (eglot .
 	[(1 4)
 	 ((emacs
@@ -428,7 +464,11 @@
 	 ((:keywords "convenience" "languages")
 	  (:url . "https://github.com/joaotavora/eglot"))])
  (el-search .
+<<<<<<< HEAD
 	    [(1 12 5)
+=======
+	    [(1 11 4)
+>>>>>>> origin/master
 	     ((emacs
 	       (25))
 	      (stream
@@ -515,7 +555,11 @@
 	   ((:url . "http://elpa.gnu.org/packages/flylisp.html")
 	    (:keywords))])
  (flymake .
+<<<<<<< HEAD
 	  [(1 0 6)
+=======
+	  [(1 0 5)
+>>>>>>> origin/master
 	   ((emacs
 	     (26 1)))
 	   "A universal on-the-fly syntax checker" single
@@ -533,6 +577,7 @@
 	      nil "show buffer tabs in side window" single
 	      ((:url . "http://elpa.gnu.org/packages/frame-tabs.html")
 	       (:keywords "frames" "tabs"))])
+<<<<<<< HEAD
  (frog-menu .
 	    [(0 2 8)
 	     ((emacs
@@ -544,6 +589,8 @@
 	     "Quickly pick items from ad hoc menus" single
 	     ((:url . "https://github.com/clemera/frog-menu")
 	      (:keywords "convenience"))])
+=======
+>>>>>>> origin/master
  (fsm .
       [(0 2 1)
        ((emacs
@@ -590,11 +637,14 @@
 	 "Glue code between Gnus, Org, and BBDB" tar
 	 ((:keywords "mail" "org" "gnus" "bbdb" "todo" "task")
 	  (:url . "http://elpa.gnu.org/packages/gnorb.html"))])
+<<<<<<< HEAD
  (gnu-elpa-keyring-update .
 			  [(2019 3)
 			   nil "Update Emacs's GPG keyring for GNU ELPA" tar
 			   ((:keywords "maint" "tools")
 			    (:url . "http://elpa.gnu.org/packages/gnu-elpa-keyring-update.html"))])
+=======
+>>>>>>> origin/master
  (gnugo .
 	[(3 1 0)
 	 ((ascii-art-to-unicode
@@ -607,7 +657,11 @@
 	 ((:keywords "games" "processes")
 	  (:url . "http://www.gnuvola.org/software/gnugo/"))])
  (gnus-mock .
+<<<<<<< HEAD
 	    [(0 4 2)
+=======
+	    [(0 4 0)
+>>>>>>> origin/master
 	     nil "Mock Gnus installation for testing" tar
 	     ((:url . "http://elpa.gnu.org/packages/gnus-mock.html"))])
  (gpastel .
@@ -621,7 +675,11 @@
 	  [(0 1)
 	   ((emacs
 	     (25)))
+<<<<<<< HEAD
 	   "gnamÃ¹ reader, a reader with espeak tts" tar
+=======
+	   "gnamù reader, a reader with espeak tts" tar
+>>>>>>> origin/master
 	   ((:keywords "tools" "accessibility")
 	    (:url . "http://elpa.gnu.org/packages/greader.html"))])
  (guess-language .
@@ -630,7 +688,11 @@
 		    (0 5))
 		   (emacs
 		    (24))
+<<<<<<< HEAD
 		   (nadvice
+=======
+		   (advice
+>>>>>>> origin/master
 		    (0 1)))
 		  "Robust automatic language detection" single
 		  ((:url . "https://github.com/tmalsburg/guess-language.el")
@@ -808,10 +870,17 @@
 	     ((:url . "http://elpa.gnu.org/packages/markchars.html")
 	      (:keywords))])
  (math-symbol-lists .
+<<<<<<< HEAD
 		    [(1 2 1)
 		     nil "Lists of Unicode math symbols and latex commands" single
 		     ((:url . "https://github.com/vspinu/math-symbol-lists")
 		      (:keywords "unicode" "symbols" "mathematics"))])
+=======
+		    [(1 1)
+		     nil "Lists of Unicode math symbols and latex commands" tar
+		     ((:keywords "unicode" "symbols" "mathematics")
+		      (:url . "https://github.com/vspinu/math-symbol-lists"))])
+>>>>>>> origin/master
  (memory-usage .
 	       [(0 2)
 		nil "Analyze the memory usage of Emacs in various ways" single
@@ -900,7 +969,11 @@
 	 ((:keywords "extensions" "lisp")
 	  (:url . "https://github.com/Malabarba/names"))])
  (nhexl-mode .
+<<<<<<< HEAD
 	     [(1 3)
+=======
+	     [(1 2)
+>>>>>>> origin/master
 	      ((emacs
 		(24 4))
 	       (cl-lib
@@ -909,7 +982,11 @@
 	      ((:url . "http://elpa.gnu.org/packages/nhexl-mode.html")
 	       (:keywords "data"))])
  (nlinum .
+<<<<<<< HEAD
 	 [(1 9)
+=======
+	 [(1 8 1)
+>>>>>>> origin/master
 	  nil "Show line numbers in the margin" single
 	  ((:url . "http://elpa.gnu.org/packages/nlinum.html")
 	   (:keywords "convenience"))])
@@ -933,7 +1010,11 @@
 	  ((:url . "http://elpa.gnu.org/packages/oauth2.html")
 	   (:keywords "comm"))])
  (objed .
+<<<<<<< HEAD
 	[(0 8 1)
+=======
+	[(0 7 4)
+>>>>>>> origin/master
 	 ((emacs
 	   (25))
 	  (cl-lib
@@ -941,6 +1022,7 @@
 	 "Navigate and edit text objects." tar
 	 ((:keywords "convenience")
 	  (:url . "https://github.com/clemera/objed"))])
+<<<<<<< HEAD
  (olivetti .
 	   [(1 7 0)
 	    ((emacs
@@ -948,20 +1030,30 @@
 	    "Minor mode for a nice writing environment" single
 	    ((:url . "http://elpa.gnu.org/packages/olivetti.html")
 	     (:keywords "wp" "text"))])
+=======
+>>>>>>> origin/master
  (omn-mode .
 	   [(1 2)
 	    nil "Support for OWL Manchester Notation" single
 	    ((:url . "http://elpa.gnu.org/packages/omn-mode.html")
 	     (:keywords))])
  (on-screen .
+<<<<<<< HEAD
 	    [(1 3 3)
+=======
+	    [(1 3 2)
+>>>>>>> origin/master
 	     ((cl-lib
 	       (0)))
 	     "guide your eyes while scrolling" single
 	     ((:url . "https://github.com/michael-heerdegen/on-screen.el")
 	      (:keywords "convenience"))])
  (org .
+<<<<<<< HEAD
       [(9 2 3)
+=======
+      [(9 2 2)
+>>>>>>> origin/master
        nil "Outline-based notes management and organizer" tar
        ((:keywords "outlines" "hypermedia" "calendar" "wp")
 	(:url . "http://elpa.gnu.org/packages/org.html"))])
@@ -1107,6 +1199,7 @@
 		 nil "Interactively list/edit registers" single
 		 ((:url . "http://elpa.gnu.org/packages/register-list.html")
 		  (:keywords "register"))])
+<<<<<<< HEAD
  (relint .
 	 [(1 7)
 	  ((xr
@@ -1114,6 +1207,8 @@
 	  "Elisp regexp mistake finder" single
 	  ((:url . "https://github.com/mattiase/relint")
 	   (:keywords "lisp" "maint" "regexps"))])
+=======
+>>>>>>> origin/master
  (rich-minority .
 		[(1 0 1)
 		 ((cl-lib
@@ -1154,11 +1249,14 @@
        nil "Sequence manipulation functions" tar
        ((:keywords "sequences")
 	(:url . "http://elpa.gnu.org/packages/seq.html"))])
+<<<<<<< HEAD
  (shelisp .
 	  [(0 9 1)
 	   nil "execute elisp in shell" single
 	   ((:url . "http://elpa.gnu.org/packages/shelisp.html")
 	    (:keywords "terminals" "lisp" "processes"))])
+=======
+>>>>>>> origin/master
  (shen-mode .
 	    [(0 1)
 	     nil "A major mode for editing shen source code" tar
@@ -1169,10 +1267,13 @@
 	     nil "Major mode for SiSU markup text" single
 	     ((:url . "http://www.sisudoc.org/")
 	      (:keywords "text" "syntax" "processes" "tools"))])
+<<<<<<< HEAD
  (smalltalk-mode .
 		 [(3 2 92)
 		  nil "Major mode for the GNU Smalltalk programming language" tar
 		  ((:url . "http://elpa.gnu.org/packages/smalltalk-mode.html"))])
+=======
+>>>>>>> origin/master
  (smart-yank .
 	     [(0 1 1)
 	      ((emacs
@@ -1225,10 +1326,17 @@
 	      ((:keywords "languages" "sql")
 	       (:url . "http://elpa.gnu.org/packages/sql-indent.html"))])
  (ssh-deploy .
+<<<<<<< HEAD
 	     [(3 1)
 	      ((emacs
 		(25)))
 	      "Deployment via Tramp, global or per directory." tar
+=======
+	     [(3 0)
+	      ((emacs
+		(24)))
+	      "Deployment via TRAMP, global or per directory." tar
+>>>>>>> origin/master
 	      ((:keywords "tools" "convenience")
 	       (:url . "https://github.com/cjohansson/emacs-ssh-deploy"))])
  (stream .
@@ -1405,6 +1513,7 @@
 	      "Emacs Web Server" tar
 	      ((:keywords "http" "server" "network")
 	       (:url . "https://github.com/eschulte/emacs-web-server"))])
+<<<<<<< HEAD
  (webfeeder .
 	    [(1 0 0)
 	     ((emacs
@@ -1412,6 +1521,8 @@
 	     "Build RSS and Atom webfeeds from HTML files" tar
 	     ((:keywords "news" "hypermedia" "blog" "feed" "rss" "atom")
 	      (:url . "https://gitlab.com/Ambrevar/emacs-webfeeder"))])
+=======
+>>>>>>> origin/master
  (websocket .
 	    [(1 8)
 	     ((cl-lib
@@ -1466,10 +1577,17 @@
        ((:keywords "multimedia" "xpm")
 	(:url . "http://www.gnuvola.org/software/xpm/"))])
  (xr .
+<<<<<<< HEAD
      [(1 11)
       nil "Convert string regexp to rx notation" tar
       ((:keywords "lisp" "maint" "regexps")
        (:url . "https://github.com/mattiase/xr"))])
+=======
+     [(1 9)
+      nil "Convert string regexp to rx notation" tar
+      ((:keywords "lisp" "maint" "regexps")
+       (:url . "http://elpa.gnu.org/packages/xr.html"))])
+>>>>>>> origin/master
  (yasnippet .
 	    [(0 13 0)
 	     ((cl-lib
@@ -1485,7 +1603,11 @@
 			      ((:keywords "snippets")
 			       (:url . "http://elpa.gnu.org/packages/yasnippet-classic-snippets.html"))])
  (zones .
+<<<<<<< HEAD
 	[(2019 4 30)
+=======
+	[(2018 12 28)
+>>>>>>> origin/master
 	 nil "Zones of text - like multiple regions" single
 	 ((:url . "https://elpa.gnu.org/packages/zones.html")
 	  (:keywords "narrow" "restriction" "widen" "region" "zone"))])
