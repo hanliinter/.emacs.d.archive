@@ -21,15 +21,15 @@
 
 ;(add-to-list 'load-path "~/.emacs.d/el-get/expand-region")
 ;(load "customize/cedet.el")
-(load "er.el")
+;(load "er.el")
 ;(require 'expand-region)
 ;(global-set-key (kbd "C-,") 'er/expand-region)
 
 ;(load "customize/ack.el")
-(load "ace.el")
-(require 'ace-jump-mode)
-(global-set-key (kbd "C-;") 'ace-jump-word-mode)
-(global-set-key (kbd "C-:") 'ace-jump-line-mode)										;(load-library "ido.el")
+;(load "ace.el")
+;(require 'ace-jump-mode)
+;(global-set-key (kbd "C-;") 'ace-jump-word-mode)
+;(global-set-key (kbd "C-:") 'ace-jump-line-mode)										;(load-library "ido.el")
 ;(require 'ido)
 ;(ido-mode t)
 ;(load "smex.el")
@@ -47,12 +47,12 @@
           '("popkit" . "http://elpa.popkit.org/packages/"))
 (package-initialize)
 (require 'use-package)
-(use-package lsp-mode
-  :commands lsp
-  :hook ((c-mode c++-mode objc-mode) . lsp)
-  :config
-			 (require 'lsp-clients)
-			 (when (equal system-type 'darwin)
-			   (setq lsp-clients-clangd-executable "/usr/local/opt/llvm/bin/clangd"))
+;(use-package lsp-mode
+;  :commands lsp
+ ; :hook ((c-mode c++-mode objc-mode) . lsp)
+  ;:config
+	;		 (require 'lsp-clients)
+	;		 (when (equal system-type 'darwin)
+	;		   (setq lsp-clients-clangd-executable "/usr/local/opt/llvm/bin/clangd"))
 ;			 (lsp-clients-register-clangd))
-)
+;)
