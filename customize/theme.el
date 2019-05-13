@@ -14,7 +14,7 @@
 (add-to-list 'load-path "~/.emacs.d/yasnippet/")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
 ;(load-file  "~/code/cedet-1.1/common/cedet.el")
-(global-linum-mode t)
+;(global-linum-mode t)
 ;;color-scheme
 ;(require 'color-theme)
 ;(color-theme-initialize)

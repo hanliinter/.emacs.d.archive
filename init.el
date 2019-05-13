@@ -1,12 +1,13 @@
-
+(setenv "HOME" "C:/Users/h.wang.SUB/")
 (add-to-list 'load-path "~/.emacs.d/customize")
 ;;
 (load "common.el")
 (load "enhancement.el")
 (load "theme.el")
-;(load "customize/magit.el")
+;(load "magit.el")
 (load "diff.el")
-;(load "customize/smart-tab.el")
+;(load "org.el")
+;(global-set-key (kbd "C-c c") 'org-capture)										;(load "customize/smart-tab.el")
 ;(load "customize/mc.el")
 
 ;;(require 'xcscope)
@@ -41,7 +42,10 @@
 
 ;(require 'lsp) add
 (require 'package)
-(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+
+;https://elpa.gnu.org/packages/
+
+(setq package-archives '(("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
                          ("melpa" . "https://melpa.org/packages/")))
 (add-to-list 'package-archives
           '("popkit" . "http://elpa.popkit.org/packages/"))
@@ -56,3 +60,33 @@
 	;		   (setq lsp-clients-clangd-executable "/usr/local/opt/llvm/bin/clangd"))
 ;			 (lsp-clients-register-clangd))
 ;)
+
+
+;;;
+;;; Org Mode
+;;;
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/org-mode/lisp"))
+(add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\)$" . org-mode))
+(require 'org)
+;;
+;; Standard key bindings
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cb" 'org-iswitchb)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(custom-enabled-themes '(wombat))
+ '(display-battery-mode t)
+ '(org-agenda-files nil)
+ '(size-indication-mode t)
+ '(tool-bar-mode nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
